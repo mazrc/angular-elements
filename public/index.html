@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Elements</title>
+    <style>
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+
+    <script defer src="elements.js"></script>
+  </head>
+
+  <body style="padding: 0 10vw">
+    <h1>Angular Elements Demo</h1>
+
+    <contact-form></contact-form>
+
+    <h2>Lazy Loaded Angular Component in HTML &#8595;</h2>
+    <lazy-image
+      src="https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2F614fbfae-5c0a-11e7-b553-e2df1b0c3220?source=next&fit=scale-down&width=700"
+      alt="bar">
+      <span slot="header"><h3>Artist</h3></span>
+      <span slot="caption">Fahrenlnissa</span>
+    </lazy-image>
+
+  </body>
+</html>
