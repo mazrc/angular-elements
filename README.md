@@ -1,6 +1,4 @@
-# Mazhar Choudhry - mazhar@objex.tech
-
-# Web Elements
+# Angular Elements
 Angular elements are Angular components packaged as custom elements,
 a web standard for defining new HTML elements in a framework-agnostic way.
 
